@@ -1,0 +1,467 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ede4e4;
+}
+
+header {
+    background-color: #ede4e4;
+    padding: 20px 40px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #4b4b8a;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 0 20px 0 50px ;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0px;
+    background-color: #ede4e4;
+    height: calc(100vh - 100px); 
+}
+
+.hero-image {
+    position: relative;
+    max-width: 50%;
+    margin-right: 50px;
+}
+
+.hero-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.hero-content {
+    max-width: 40%;
+    margin-left: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    color: #4b4b8a;
+    margin: 0 0 20px;
+}
+
+.hero-content p {
+    font-size: 1em;
+    color: #6d6d6d;
+    margin: 20px 0;
+}
+
+.btn {
+    background-color: #4b4b8a;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+
+.services {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.services::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('/assets/kenny-eliason-y8fWicGsv4g-unsplash.jpg') no-repeat center center/cover;
+    z-index: -1;
+    filter: brightness(50%);
+}
+
+.services-overlay {
+    display: inline-block;
+    width: 50%;
+    background-color: #4b4b8a;
+    padding: 40px 60px;
+    border-radius: 10px;
+    margin: 100px auto;
+}
+
+.services-overlay h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.services-overlay p {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.read-more {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 2px solid white;
+    padding-bottom: 3px;
+}
+
+.process {
+    display: flex;
+    height: 100vh;
+}
+
+.text-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    background: rgba(74, 66, 106, 0.1); 
+}
+
+.text-section h1 {
+    font-size: 3em;
+    color: #4b4b8a;
+    margin-bottom: 20px;
+}
+
+.text-section p {
+    font-size: 1.2em;
+    color: #6d6d6d;
+    line-height: 1.5;
+}
+
+.image-section {
+    flex: 1;
+    background: url('/assets/im\ 3.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.image-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.four {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #4b4b8a;
+    padding-top: 20px;
+
+}
+
+.container {
+    position: relative;
+}
+
+.background-image {
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 95.5%;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 20px 20px 00px;
+}
+
+/* ---------------------for smile class_------------------------- */
+
+.smile img{
+    width: 35rem;
+    height: 30rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#newoverlay{
+    display: flex;
+}
+
+.overlay h1 {
+    font-size: 150px;
+    font-weight: bold;
+    margin: 0;
+    color: #4b4b8a;
+}
+
+.overlay button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: #4b4b8a;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.overlay button:hover {
+    background-color: #7979b9;
+}
+    
+
+    .five{
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .achievements {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #4b4b8a;
+        color: white;
+        padding: 50px;
+        width: 100%;
+        
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .achievement {
+        flex: 1;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .icon {
+        font-size: 48px;
+        margin-bottom: 20px;
+    }
+    
+    h2 {
+        font-size: 24px;
+        margin: 10px 0;
+    }
+    
+    p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    
+    
+    .container {
+        width: 90%;
+        max-width: 1200px;
+        margin: 0 auto;
+      
+    }
+    
+    .mission-vision {
+        text-align: center;
+        padding: 50px 0;
+    }
+    
+    .mission-vision h1 {
+        font-size: 3rem;
+        color: #4b4b8a;
+        margin-bottom: 20px;
+    }
+    
+    .mission-vision p {
+        font-size: 1rem;
+        color: #565656;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+    
+    .our-team {
+        background-color: #4b4b8a;
+        color: white;
+        padding: 50px 0;
+        text-align: center;
+    }
+    
+    .our-team h2 {
+        font-size: 2.5rem;
+        margin-bottom: 40px;
+    }
+    
+    .team-members {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    .team-member {
+        width: 30%;
+        text-align: center;
+    }
+    
+    .team-member img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+    
+    .team-member h3 {
+        font-size: 1.5rem;
+        margin: 10px 0 5px 0;
+    }
+    
+    .team-member p {
+        font-size: 1rem;
+    }
+    
+    .experience {
+        text-align: center;
+        padding: 50px 0;
+    }
+    
+    .experience h2 {
+        font-size: 2.5rem;
+        color: #4b4b8a;
+        margin-bottom: 40px;
+    }
+    
+    .stats {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    .stat {
+        width: 30%;
+        text-align: center;
+    }
+    
+    .stat h3 {
+        font-size: 2rem;
+        color: #4b4b8a;
+        margin-bottom: 10px;
+    }
+    
+    .stat p {
+        font-size: 1rem;
+        color: #565656;
+    }
+    
+
+   
+
+.last {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+}
+
+.hero-section {
+    background: url('/assets/last.jpg') no-repeat center center/cover;
+    height: 80vh;
+    position: relative;
+}
+
+.last .overlay {
+    background-color: rgba(232, 228, 228, 0.509);
+    height: 92%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.hero-content button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4b4b8a;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #4b4b8a;
+    padding: 40px 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.footer-section h3 {
+    font-size: 1.2rem;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #ffffff;
+}
